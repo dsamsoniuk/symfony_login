@@ -14,14 +14,14 @@ class DefaultController extends Controller
      */
     public function admin()
     {
-        return new Response('<html><body>Admin page!</body></html>');
+        return new Response('<html><body>Admin page</body></html>');
     }
     /**
      * @Route("/")
      */
     public function index()
     {
-        return new Response('<html><body>gloan page!</body></html>');
+        return new Response('<html><body>glowna ^/ </body></html>');
     }
 
 }
